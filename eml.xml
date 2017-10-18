@@ -1,0 +1,109 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+         packageId="https://ipt.gbif.org/resource?id=zeigerwerte/v1.0" system="http://gbif.org" scope="system"
+         xml:lang="eng">
+
+<dataset>
+  <title xml:lang="deu">Zeigerwerte von Pflanzen &amp; Flechten in Mitteleuropa</title>
+      <creator>
+    <individualName>
+        <givenName>Markus</givenName>
+      <surName>Döring</surName>
+    </individualName>
+    <address>
+        <city>Berlin</city>
+        <postalCode>10997</postalCode>
+        <country>DE</country>
+    </address>
+    <electronicMailAddress>mdoering@gbif.org</electronicMailAddress>
+      </creator>
+      <metadataProvider>
+    <individualName>
+        <givenName>Markus</givenName>
+      <surName>Döring</surName>
+    </individualName>
+    <address>
+        <city>Berlin</city>
+        <postalCode>10997</postalCode>
+        <country>DE</country>
+    </address>
+    <electronicMailAddress>mdoering@gbif.org</electronicMailAddress>
+      </metadataProvider>
+  <pubDate>
+      2017-06-07
+  </pubDate>
+  <language>deu</language>
+  <abstract>
+    <para>Für alle in Mitteleuropa vorhandenen Pflanzenarten sind in dem Datensatz möglichst folgende Angaben zusammengestellt:
+
+1. die ökologischen Zeigerwerte nach Ellenberg (1979), verändert entsprechend der jüngsten Auflage (Ellenberg et al.2001), und nach Wirth (brieflich),
+
+2. die Lebens– oder Wuchsform, bei Flechten auch das Substrat.
+
+</para>
+    <para>Das ökologische Verhalten gegenüber einem bestimmten Standortfaktor ist in der Regel durch eine Ziffer von 1 bis 9 ausgedrückt. Eine 0 wird nur beim Salzfaktor verwendet; sie weist auf sehr geringe Toleranz hin. Die Zeigerwerte spiegeln das Vorkommen einer Sippe im Gefälle der Umweltfaktoren unter Freilandbedingungen wider, d. h. bei ausgeprägter zwischenartlicher Konkurrenz. Die Zeigerwerte sagen also nichts über die „Ansprüche“, also das Verhalten in Reinkultur, aus.</para>
+    <para>Sämtliche Angaben bei den Zeigerwerten beziehen sich auf das westliche Mitteleuropa, insbesondere auf Westdeutschland, einschließlich der angrenzenden Alpen.</para>
+  </abstract>
+      <keywordSet>
+            <keyword>checklist</keyword>
+            <keyword>ecology</keyword>
+            <keyword>indicator</keyword>
+            <keyword>ellenberg</keyword>
+            <keyword>botany</keyword>
+            <keyword>central europe</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+  <intellectualRights>
+    <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+  </intellectualRights>
+  <coverage>
+      <geographicCoverage>
+          <geographicDescription>Central Europe</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-5.273</westBoundingCoordinate>
+          <eastBoundingCoordinate>24.258</eastBoundingCoordinate>
+          <northBoundingCoordinate>58.263</northBoundingCoordinate>
+          <southBoundingCoordinate>43.069</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+          <taxonomicCoverage>
+              <taxonomicClassification>
+                  <taxonRankName>kingdom</taxonRankName>
+                <taxonRankValue>Plantae</taxonRankValue>
+              </taxonomicClassification>
+          </taxonomicCoverage>
+  </coverage>
+  <maintenance>
+    <description>
+      <para></para>
+    </description>
+    <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  </maintenance>
+
+      <contact>
+    <individualName>
+        <givenName>Markus</givenName>
+      <surName>Döring</surName>
+    </individualName>
+    <address>
+        <city>Berlin</city>
+        <postalCode>10997</postalCode>
+        <country>DE</country>
+    </address>
+    <electronicMailAddress>mdoering@gbif.org</electronicMailAddress>
+      </contact>
+</dataset>
+  <additionalMetadata>
+    <metadata>
+      <gbif>
+          <dateStamp>2017-06-06T06:17:54.395+02:00</dateStamp>
+          <hierarchyLevel>dataset</hierarchyLevel>
+          <bibliography>
+                <citation identifier="https://de.wikipedia.org/wiki/Zeigerwerte_nach_Ellenberg">Ellenberg, H. (1991): Zeigerwerte der Gefäßpflanzen.- in: Ellenberg, H.; Weber, H. E.; Düll, R.; Wirth, V.; Werner, W.; Paulissen, D.: Zeigerwerte von Pflanzen in Mitteleuropa. 3. Aufl. - Scripta geobotanica 18: 9-166.</citation>
+          </bibliography>
+      </gbif>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
