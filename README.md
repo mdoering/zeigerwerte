@@ -1,4 +1,6 @@
-# Darwin Core archive der Zeigerwerte von Pflanzen &amp; Flechten in Mitteleuropa.
+# Zeigerwerte von Pflanzen &amp; Flechten in Mitteleuropa.
+
+Ein Darwin Core archive der Zeigerwerte, registriert in GBIF unter https://www.gbif.org/dataset/9a4fa5fd-698b-4484-81ce-a4048f5c2d86
 
 Für alle in Mitteleuropa vorhandenen Pflanzenarten sind in dem Datensatz möglichst folgende Angaben zusammengestellt:
 
